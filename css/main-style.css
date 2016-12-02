@@ -8070,3 +8070,14 @@ body:not(.classic) .site-wrapper .container {
 #recaptcha_audio_play_again {
   cursor: pointer;
 }
+
+#testi-carousel h4{
+    color:#fcae11;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+#testi-carousel p{
+    color:#25CBF5;
+}

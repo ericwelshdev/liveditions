@@ -62,6 +62,8 @@
     <Content Include="css\vendor\font-awesome.min.css" />
     <Content Include="css\vendor\lightbox.min.css" />
     <Content Include="css\vendor\open-iconic-bootstrap.css" />
+    <Content Include="css\vendor\owl.carousel.css" />
+    <Content Include="css\vendor\owl.theme.css" />
     <Content Include="default.html" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.svg" />
@@ -116,6 +118,7 @@
     <Content Include="js\plugins\jquery.min.js" />
     <Content Include="js\plugins\jquery.waypoints.min.js" />
     <Content Include="js\plugins\lightbox.min.js" />
+    <Content Include="js\plugins\owl.carousel.min.js" />
     <Content Include="js\plugins\smoothscroll.min.js" />
     <Content Include="js\preview.js" />
     <None Include="liveditions_TemporaryKey.pfx" />
