@@ -234,7 +234,7 @@ $(document).ready(function () {
 //owl carousel for testimonials
 $(document).ready(function () {
 
-    $("#testi-carousel,#work-slide").owlCarousel({
+    $("#testi-carousel").owlCarousel({
         // Most important owl features
         items: 1,
         itemsCustom: false,
@@ -248,4 +248,54 @@ $(document).ready(function () {
         autoPlay: true
     });
 
+});
+
+
+/*----------------------------
+    Wow js active
+------------------------------ */
+new WOW().init();
+
+/*--------------------------------
+	Team Slick Carousel
+-----------------------------------*/
+$('.team-text-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    draggable: false,
+    fade: true,
+    asNavFor: '.slider-nav'
+});
+/*------------------------------------
+	Team Slick Carousel as Nav
+--------------------------------------*/
+$('.team-image-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.team-text-slider',
+    dots: false,
+    arrows: true,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: '10px',
+    responsive: [
+        {
+            breakpoint: 450,
+            settings: {
+                dots: false,
+                slidesToShow: 3,
+                centerPadding: '0px',
+            }
+        },
+        {
+            breakpoint: 420,
+            settings: {
+                autoplay: true,
+                dots: false,
+                slidesToShow: 1,
+                centerMode: false,
+            }
+        }
+    ]
 });

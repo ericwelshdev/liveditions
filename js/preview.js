@@ -1,75 +1,113 @@
-﻿/* -------------------- *\
-    #PREVIEW SETUP (TO BE REMOVED ON A PRODUCTION SITE)
-\* -------------------- */
+﻿(function ($) {
+    "use strict";
 
-/**
- * Preloader
- */
+    /*-----------------------------
+        Menu Stick
+    ---------------------------------*/
+    if ($(".sticker")[0]) {
+        $('.sticker');
+        $(window).scroll(function () {
+            var wind_scr = $(window).scrollTop();
+            var window_width = $(window).width();
+            var head_w = $('.sticker').height();
+            if (window_width >= 10) {
+                if (wind_scr < 400) {
+                    if ($('.sticker').data('stick') === true) {
+                        $('.sticker').data('stick', false);
+                        $('.sticker').stop(true).animate({ opacity: 0 }, 300, function () {
+                            $('.sticker').removeClass('stick slideDown');
+                            $('.sticker').stop(true).animate({ opacity: 1 }, 300);
+                        });
+                    }
+                } else {
+                    if ($('.sticker').data('stick') === false || typeof $('.sticker').data('stick') === 'undefined') {
+                        $('.sticker').data('stick', true);
+                        $('.sticker').stop(true).animate({ opacity: 0 }, 300, function () {
+                            $('.sticker').addClass('stick slideDown');
+                            $('.sticker.stick').stop(true).animate({ opacity: 1 }, 300);
+                        });
+                    }
+                }
+            }
+        });
+    };
 
-$(window).load(function () {
-    $('.preloader-alt__img').fadeOut(500);
-    $('.preloader_alt').delay(1000).fadeOut(500);
-});
+    /*----------------------------
+        jQuery MeanMenu
+    ------------------------------ */
+    //$('.mobile-menu nav').meanmenu({
+    //    meanScreenWidth: "990",
+    //    meanMenuContainer: ".mobile-menu",
+    //    onePage: true,
+    //});
+
+    /*----------------------------
+        Wow js active
+    ------------------------------ */
+    //new WOW().init();
+
+    /*--------------------------
+        ScrollUp
+    ---------------------------- */
+    //$.scrollUp({
+    //    scrollText: '<i class="zmdi zmdi-chevron-up"></i>',
+    //    easingType: 'linear',
+    //    scrollSpeed: 900,
+    //    animation: 'fade'
+    //});
 
 
-///**
-// * Add color & navbar options menu
-// */
+    /*--------------------------------
+        Testimonial Slick Carousel
+    -----------------------------------*/
+    //$('.team-text-slider').slick({
+    //    slidesToShow: 1,
+    //    slidesToScroll: 1,
+    //    arrows: false,
+    //    draggable: false,
+    //    fade: true,
+    //    asNavFor: '.slider-nav'
+    //});
+    /*------------------------------------
+        Testimonial Slick Carousel as Nav
+    --------------------------------------*/
+    $('.team-image-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        //asNavFor: '.team-text-slider',
+        dots: false,
+        arrows: true,
+        centerMode: true,
+        focusOnSelect: true,
+        centerPadding: '10px',
+        responsive: [
+            {
+                breakpoint: 450,
+                settings: {
+                    dots: false,
+                    slidesToShow: 3,
+                    centerPadding: '0px',
+                }
+            },
+            {
+                breakpoint: 420,
+                settings: {
+                    autoplay: true,
+                    dots: false,
+                    slidesToShow: 1,
+                    centerMode: false,
+                }
+            }
+        ]
+    });
 
-//if (!$("body").hasClass("preview__body")) {
+    /*--------------------------------
+        One Page Nav
+    -----------------------------------*/
+    var top_offset = $('.main-menu').height() - -60;
+    $('.main-menu nav ul').onePageNav({
+        currentClass: 'active',
+        scrollOffset: top_offset,
+    });
 
-
-//    var menu = "";
-//    menu += "    <ul class=\"preview-setup hidden-xs\">";
-//    menu += "      <li class=\"orange\" title=\"Orange scheme\">";
-//    menu += "        <a href=\"#\" data-stylesheet=\"style.css\"><\/a>";
-//    menu += "      <\/li>";
-//    menu += "      <li class=\"green\" title=\"Green scheme\">";
-//    menu += "        <a href=\"#\" data-stylesheet=\"style_green.css\"><\/a>";
-//    menu += "      <\/li>";
-//    menu += "      <li class=\"blue\" title=\"Blue scheme\">";
-//    menu += "        <a href=\"#\" data-stylesheet=\"style_blue.css\"><\/a>";
-//    menu += "      <\/li>";
-//    menu += "      <li class=\"yellow\" title=\"Yellow scheme\">";
-//    menu += "        <a href=\"#\" data-stylesheet=\"style_yellow.css\"><\/a>";
-//    menu += "      <\/li>";
-//    menu += "      <li class=\"red\" title=\"Red scheme\">";
-//    menu += "        <a href=\"#\" data-stylesheet=\"style_red.css\"><\/a>";
-//    menu += "      <\/li>";
-//    menu += "      <li id=\"menu_top\" title=\"Navbar menu\">";
-//    menu += "        <a href=\"#\"><span class=\"oi oi-expand-down\"><\/span><\/a>";
-//    menu += "      <\/li>";
-//    menu += "      <li id=\"menu_side\" title=\"Sidebar menu\">";
-//    menu += "        <a href=\"#\"><span class=\"oi oi-expand-right\"><\/span><\/a>";
-//    menu += "      <\/li>";
-//    menu += "    <\/ul>";
-
-//    $("body").prepend(menu);
-
-
-//    /**
-//	 * Toggle stylesheets
-//	 */
-
-//    $(".preview-setup > li").not("#menu_top #menu_side").on("click", "a", function () {
-//        var stylesheet = $(this).data("stylesheet");
-//        $("head").append("<link href=\"assets/css/" + stylesheet + "\" rel=\"stylesheet\">");
-//    });
-
-
-//    /**
-//	 * Toggle navbar position
-//	 */
-
-//    $(".preview-setup > #menu_side > a").on("click", function () {
-//        $(".navbar").removeClass("hidden show").addClass("hidden");
-//        $(".sidebar__btn").removeClass("hidden show").addClass("show");
-//    });
-
-//    $(".preview-setup > #menu_top > a").on("click", function () {
-//        $(".navbar").removeClass("hidden show").addClass("show");
-//        $(".sidebar__btn").removeClass("hidden show").addClass("hidden");
-//        $(".sidebar__menu").addClass("sidebar__menu_hidden");
-//    });
-
-//};
+})(jQuery);
