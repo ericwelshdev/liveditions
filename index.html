@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +7,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="images/livedition-icon-noname.png">
-
     <title>liveditions</title>
-    <link href="css/vendor/animate.css" rel="stylesheet" type="text/css">
-    <link href="css/vendor/lightbox.min.css" rel="stylesheet" type="text/css">
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="css/open-iconic-bootstrap.css" rel="stylesheet" type="text/css">
+    <!-- CSS Plugins -->
+    <link href="css/vendor/animate.css" rel="stylesheet">
+    <link href="css/vendor/lightbox.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/open-iconic-bootstrap.css" rel="stylesheet">
     <!--grid css-->
     <link href="css/vendor/grid.less" rel="stylesheet" type="text/css" media="screen">
     <!--owl carousel css-->
@@ -21,30 +21,23 @@
     <link href="css/vendor/slick.css" rel="stylesheet" type="text/css" media="screen">
     <link href="css/vendor/slick-theme.css" rel="stylesheet" type="text/css" media="screen">
 
-
-    <!--carousel-3d css-->
-    <!--<link href="css/vendor/jquery.carousel-3d.default.css" rel="stylesheet" type="text/css" media="screen">-->
- 
-
     <!-- CSS Custom -->
-    <link href="css/main-style.css" rel="stylesheet" type="text/css">
-    <link href="css/preview.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
 
-
-
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
 </head>
 <body class="classic" data-spy="scroll" data-target=".scrollspy_menu">
-    
-
     <!-- PRELOADER
     ============================== -->
-    <div class="preloader active" style="display: none;">
-        <img src="images/preloader.gif" alt="Loading..." class="preloader__img" style="display: none;">
+    <div class="preloader">
+        <img src="images/preloader.gif" alt="Loading..." class="preloader__img">
     </div>
 
-
     <!-- NAVBAR
-    ============================== -->
+        ============================== -->
     <div class="navbar navbar-default navbar__initial navbar-fixed-top scrollspy_menu" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -70,26 +63,23 @@
         </div>
     </div>
 
-
     <!-- SIDEBAR
     ============================== -->
     <!-- Sidebar button open -->
     <div class="hidden sidebar__btn sidebar__btn_open">
         <span class="sidebar-btn__caption">Menu</span>
         <span class="oi oi-menu sidebar-btn__icon sidebar-btn-icon__unhover " title="Open menu" aria-hidden="true"></span>
-        <span class="fa fa-arrow-left sidebar-btn__icon sidebar-btn-icon__hover" title="Open menu" aria-hidden="true"></span>
+        <span class="oi oi-arrow-left sidebar-btn__icon sidebar-btn-icon__hover" title="Open menu" aria-hidden="true"></span>
     </div>
-
     <!-- Sidebar menu -->
     <div class="sidebar__menu sidebar__menu_hidden scrollspy_menu">
-
         <!-- Sidebar button close -->
         <div class="sidebar__btn sidebar__btn_close">
             <span class="sidebar-btn__caption">Menu</span>
             <span class="oi oi-menu sidebar-btn__icon sidebar-btn-icon__unhover " title="Close menu" aria-hidden="true"></span>
-            <span class="fa fa-arrow-right sidebar-btn__icon sidebar-btn-icon__hover" title="Close menu" aria-hidden="true"></span>
+            <span class="oi oi-arrow-right sidebar-btn__icon sidebar-btn-icon__hover" title="Close menu" aria-hidden="true"></span>
         </div>
-
+        <!-- Sidebar brand name -->
         <!-- Sidebar brand name -->
         <div class="sidebar-menu__brand">Liveditions</div>
 
@@ -103,7 +93,6 @@
             <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact Us</a></li>
         </ul>
-
     </div> <!-- / .sidebar-menu__ul -->
     <!-- WELCOME
     ============================== -->
@@ -112,42 +101,41 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-
-                        <!-- Pre heading -->
-                        <p class="heading__pre">
-                            Version 2.2.x
-                        </p>
+                        
 
                         <!-- Heading -->
                         <h1 class="heading heading_lg">
                             Welcome to <span class="text-primary">Liveditions</span>
                         </h1>
-
-                        <!-- Sub heading -->
-                        <p class="heading__sub">
-                            Persist until you succeed...
-                        </p>
-
-                        <!-- Button -->
                         <div class="text-center">
-
-                            <a href="#about" class="btn btn-xl btn-primary">
-                                <span class="fa fa-arrow-right" title="Find out more" aria-hidden="true"></span>
-                                <span>Find Out More</span>
-                            </a>
-
+                            <img class="logo" src="images/livedition-icon.png" />
                         </div>
 
-                    </div>
+
+                            <!-- Sub heading -->
+                            <p class="heading__sub">
+                                Persist until you succeed...
+                            </p>
+
+                            <!-- Button -->
+                            <div class="text-center">
+
+                                <a href="#about" class="btn btn-xl btn-primary">
+                                    <span class="fa fa-arrow-right" title="Find out more" aria-hidden="true"></span>
+                                    <span>Find Out More</span>
+                                </a>
+
+                            </div>
+
+                        </div>
                 </div> <!-- / .row -->
 
 
             </div> <!-- / .container -->
         </div> <!-- / .classic-welcome__inner -->
     </div> <!-- / .welcome_classic -->
-
     <!-- THE PLATFORM
-    ============================== -->
+       ============================== -->
     <div class="site-wrapper" id="platform">
         <div class="container">
             <div class="row">
@@ -185,7 +173,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 app-features-image wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
-                    <img src="images/iphone2.png" alt="">
+                    <img id="platform-image" src="images/iphone2.png" alt="">
                 </div>
                 <div class="col-sm-4 app-features-wrapper wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
                     <div class="app-features-box">
@@ -210,9 +198,8 @@
 
         </div> <!-- / .container -->
     </div> <!-- / .site-wrapper_classic -->
-
     <!-- BENEFITS
-    ============================== -->
+       ============================== -->
     <div class="site-wrapper" id="benefits">
         <div class="container">
             <div class="row">
@@ -386,9 +373,8 @@
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </div> <!-- / .site-wrapper_classic -->
-
     <!-- FEATURES
-    ============================== -->
+        ============================== -->
     <div class="site-wrapper" id="features">
         <div class="container">
             <div class="row">
@@ -599,7 +585,8 @@
 
                         <!-- Summary -->
                         <div class="features-item__summary">
-                            Message Center allows assigned counselors an appropriate environment to communicate with students and give advice and encouragement through their pathway(s). 
+                            Message Center allows assigned counselors an appropriate environment to communicate with students and give advice and encouragement through their pathway(s).
+
                         </div>
                     </div> <!-- / .features__item -->
 
@@ -607,7 +594,6 @@
             </div> <!-- / .row -->
         </div> <!-- / .container -->
     </div> <!-- / .site-wrapper -->
-
     <!-- ABOUT
     ============================== -->
     <div class="site-wrapper" id="about">
@@ -627,10 +613,10 @@
                         Live Editions is a boutique software development company focused on accelerating the development and adoption of breakthrough educational strategies designed to improve the experience of education in order to better match and keep pace with the needs and expectations of students living in the 21st century
                     </p>
                     <div class="text-center">
-                    <a href="#team" class="btn btn-lg btn-default">
-                        <span class="fa fa-angle-right" title="All" aria-hidden="true"></span>
-                        <span>Meet the Team</span>
-                    </a>
+                        <a href="#team" class="btn btn-lg btn-default">
+                            <span class="fa fa-angle-right" title="All" aria-hidden="true"></span>
+                            <span>Meet the Team</span>
+                        </a>
                     </div>
 
 
@@ -639,9 +625,8 @@
 
         </div> <!-- / .container -->
     </div> <!-- / .site-wrapper_classic -->
-
     <!-- TEAM
-    ============================== -->
+     ============================== -->
     <div class="site-wrapper team-area horizontal" id="team">
         <div class="container">
             <div class="row">
@@ -688,8 +673,8 @@
                     <div class="team-text-slider text-center">
                         <div class="teamText">
                             <h2>Eric Kmiec </h2>
-                            <h4>Co-Founder & CEO</h4> 
-                           
+                            <h4>Co-Founder & CEO</h4>
+
                             <div class="team-member__contact">
                                 <a href="#" class="team-member-contact__item facebook">
                                     <i class="fa fa-facebook"></i>
@@ -700,7 +685,7 @@
                                 <a href="#" class="team-member-contact__item google-plus">
                                     <i class="fa fa-google-plus"></i>
                                 </a>
-                            </div>                       
+                            </div>
                             <p>Eric is a seasoned Silicon Valley entrepreneur with over three decades of experience in bringing to the global marketplace state-of-the-art wireless telecommunications technologies, e-Publishing, network communications and e-Learning technology.  Eric has been pushing the boundaries of technology for more than 30 years, focused exclusively on creating next generation telecom/Internet architectures and technologies, which have translated into several innovative products and solutions, including the introduction of GSM digital cellular to the United States, which enabled the ﬁrst digital cellular mobile call in the USA to become a reality.   </p>
                             <p>Eric is a veteran of the United States Air Force where he studied electrical engineering, space systems operations and space communications systems engineering. As Chief Executive Ofﬁcer, Eric manages the company’s day to day operations and leads the overall product vision and business strategy. </p>
                         </div>
@@ -790,18 +775,16 @@
                                     <i class="fa fa-google-plus"></i>
                                 </a>
                             </div>
-                            <p> </p>                            
+                            <p> </p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div> <!-- / .container -->
         </div>
     </div> <!-- / .site-wrapper -->
-
-
     <!-- CONTACT
-    ============================== -->
+        ============================== -->
     <div class="site-wrapper" id="contact">
         <div class="container">
             <div class="row">
@@ -863,7 +846,7 @@
                         <div id="success"></div>
                         <div class="row">
                             <div class="form-group col-xs-12">
-                                <a href="" class="btn btn-lg btn-default"  >
+                                <a href="" class="btn btn-lg btn-default">
                                     <span class="fa fa-envelope-o" title="All" aria-hidden="true"></span>
                                     <span>Send Message</span>
                                 </a>
@@ -894,12 +877,8 @@
                 </div>
 
             </div>
-            </div> <!-- / .row -->
+        </div> <!-- / .row -->
     </div> <!-- / .container -->
-
-    
-    <!-- Google Map -->
-    
     <!-- FOOTER
     ============================== -->
     <footer>
@@ -924,68 +903,29 @@
             </div>
         </div>
     </footer>
-        <a id="scrollUp" href="#welcome" style="position: fixed; z-index: 2147483647;"><i class="fa fa-chevron-up"></i></a>
+    <a id="scrollUp" href="#welcome" style="position: fixed; z-index: 2147483647;"><i class="fa fa-chevron-up"></i></a>
+
 
     <!-- JavaScript
     ================================================== -->
     <!-- JS Global -->
-
-    <!-- Mainly scripts -->
-    <!--<script src="js/plugins/modernizr-2.8.3.min.js"></script>-->
     <script src="js/plugins/jquery.min.js"></script>
     <script src="js/plugins/bootstrap.min.js"></script>
-
+    <!-- JS Plugins -->
     <!--slick-->
     <script type="text/javascript" src="js/plugins/slick.min.js"></script>
-
-    <!-- JS Plugins -->
-    <!--<script src="js/plugins/jquery.meanmenu.js"></script>-->
     <script src="js/plugins/wow.min.js"></script>
     <script src="js/plugins/smoothscroll.min.js"></script>
     <script src="js/plugins/jquery.waypoints.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/isotope.pkgd.min.js"></script>
-    <!--<script src="js/plugins/lightbox.min.js"></script>-->
-
     <!--owl carousel slider-->
     <script src="js/plugins/owl.carousel.min.js" type="text/javascript"></script>
-    <!--carousel-3d slider-->
-    <!--<script src="js/plugins/jquery.carousel-3d.min.js" type="text/javascript"></script>-->
 
-    <!--<div id="lightboxOverlay" class="lightboxOverlay" style="display: none;">
-    </div>
-    <div id="lightbox" class="lightbox" style="display: none;">
-        <div class="lb-outerContainer">
-            <div class="lb-container">
-                <img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
-                <div class="lb-nav">
-                    <a class="lb-prev" href=""></a>
-                    <a class="lb-next" href=""></a>
-                </div>
-                <div class="lb-loader">
-                    <a class="lb-cancel"></a>
-                </div>
-            </div>
-        </div>
-        <div class="lb-dataContainer">
-            <div class="lb-data">
-                <div class="lb-details">
-                    <span class="lb-caption"></span>
-                    <span class="lb-number"></span>
-                </div>
-                <div class="lb-closeContainer">
-                    <a class="lb-close"></a>
-                </div>
-            </div>
-        </div>
-    </div>-->
-
-    <!--<script src="js/contact.js"></script>-->
-      <!-- JS Custom -->
+    <!-- JS Custom -->
     <script src="js/custom.js"></script>
-    <script src="js/preview.js"></script>
 
-
+    <!--<div style="position: absolute; z-index: -10000; top: 0px; left: 0px; right: 0px; height: 8418px;"></div>-->
     <div style="position: absolute; z-index: -10000; top: 0px; left: 0px; right: 0px; height: 5412px;"></div>
     <div style="clear: both;"></div>
 

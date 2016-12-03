@@ -1,4 +1,9 @@
-﻿/* -------------------- *\
+
+
+
+
+
+/* -------------------- *\
     GENERAL
 \* -------------------- */
 
@@ -132,8 +137,17 @@ if ($("body.classic").length) {
 
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
+
+
+
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+
+
+
+
+
 
                 if (target.length) {
                     $('html, body').animate({
@@ -185,6 +199,7 @@ $(document).ready(function () {
 
             // Plugin setup
 
+
             // Navigation
             anchors: ['welcome', 'about', 'portfolio', 'pricing', 'team', 'features', 'contact'],
             menu: '.fullpage__nav',
@@ -226,6 +241,7 @@ $(document).ready(function () {
             }
 
         });
+
     };
 
 });
