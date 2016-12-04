@@ -178,13 +178,13 @@ $(document).ready(function () {
             // Init Backstretch
 
             $(".backstretch-carousel").backstretch([
-                "assets/img/screen-bg_1.jpg",
-                "assets/img/screen-bg_2.jpg",
-                "assets/img/screen-bg_3.jpg",
-                "assets/img/screen-bg_4.jpg",
-                "assets/img/screen-bg_5.jpg",
-                "assets/img/screen-bg_6.jpg",
-                "assets/img/screen-bg_7.jpg"
+                "images/screen-bg_1.jpg",
+                "images/screen-bg_2.jpg",
+                "images/screen-bg_3.jpg",
+                "images/screen-bg_4.jpg",
+                "images/screen-bg_5.jpg",
+                "images/screen-bg_6.jpg",
+                "images/screen-bg_7.jpg"
             ], { duration: 1000, fade: 700 });
 
             // Pause Backstretch
@@ -201,7 +201,7 @@ $(document).ready(function () {
 
 
             // Navigation
-            anchors: ['welcome', 'about', 'portfolio', 'pricing', 'team', 'features', 'contact'],
+            anchors: ['welcome', 'platform', 'benefits', 'features', 'about', 'team', 'contact'],
             menu: '.fullpage__nav',
             slidesNavigation: 'true',
 

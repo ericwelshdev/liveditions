@@ -67,6 +67,8 @@
     <Content Include="css\vendor\font-awesome.min.css" />
     <Content Include="css\vendor\grid.less" />
     <Content Include="css\vendor\jquery.carousel-3d.default.css" />
+    <Content Include="css\vendor\jquery.fullpage.css" />
+    <Content Include="css\vendor\jquery.fullpage.min.css" />
     <Content Include="css\vendor\lightbox.min.css" />
     <Content Include="css\vendor\open-iconic-bootstrap.css" />
     <Content Include="css\vendor\owl.carousel.css" />
@@ -132,6 +134,7 @@
     <Content Include="js\plugins\bootstrap.min.js" />
     <Content Include="js\plugins\jquery.carousel-3d.min.js" />
     <Content Include="js\plugins\jquery.easing.min.js" />
+    <Content Include="js\plugins\jquery.fullpage.min.js" />
     <Content Include="js\plugins\jquery.meanmenu.js" />
     <Content Include="js\plugins\jquery.min.js" />
     <Content Include="js\plugins\jquery.waypoints.min.js" />
