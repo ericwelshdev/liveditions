@@ -173,7 +173,7 @@ $(document).ready(function () {
             // Init Backstretch
 
             $(".backstretch-carousel").backstretch([
-                "images/screen-bg_1.jpg",
+                "images/skins/bg_screen_01.jpeg",
                 "images/screen-bg_2.jpg",
                 "images/screen-bg_3.jpg",
                 "images/screen-bg_4.jpg",
