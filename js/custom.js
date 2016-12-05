@@ -214,6 +214,16 @@ $(document).ready(function () {
             paddingTop: '0',
             paddingBottom: '0',
 
+            afterLoad: function(anchorLink, index){
+                var loadedSection = $(this);
+
+                //using index
+                if(index == 1){
+                    $("#scrollUp").fadeOut("slow");
+                    $("#scrollUp").addClass("hide");
+                }
+            },
+
             onLeave: function (index, nextIndex, direction) {
 
                 // Make navbar active after leaving 1st section

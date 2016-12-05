@@ -4318,8 +4318,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   display: block;
 }
 .navbar-brand > span > img {
-  height:32px;
-  width:auto;
+	height: 64px;
+	width: auto;
+	margin-top: 15px;
 }
 
 @media (min-width: 768px) {
@@ -7553,34 +7554,35 @@ body:not(.classic) .site-wrapper .container {
     display:none;
 }
 
-.logo{
-
-    vertical-align: middle;
-    border: 0;
-
+.logo {
+	height: 200px;
+	width: 200px;
+	vertical-align: middle;
+	border: 0;
+	margin-bottom: 20px;
 }
 
 
 
-
-.logo-holder{
-   height:250px;
-   max-width:250px;
-   background: #E6E7ED;
-   text-align: center;
-   border: 6px solid #fcae11;
-   border-radius: 50%;
-   margin-bottom:30px;
+.logo-holder {
+	height: 300px;
+	max-width: 300px;
+	/* background: #E6E7ED; */
+	text-align: center;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	margin-bottom: 30px;
 }
-.logo-img{
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    background-image: url(../images/livedition-icon-soft.png);
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+.logo-img {
+	width: 240px;
+	height: 200px;
+	display: inline-block;
+	background-image: url(../images/livedition-icon-white.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 13px;
+	margin-top: 15px;
 }
 
 
@@ -7662,7 +7664,7 @@ body:not(.classic) .site-wrapper .container {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="platform"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_11.jpg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_11.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="benefits"] {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_03.jpeg);
@@ -7692,7 +7694,7 @@ body:not(.classic) .site-wrapper .container {
   background-image: url(../images/bg-pattern.png), url(../images/skins/screen-bg_10.jpg);
 }
 .site-wrapper__slide_4 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_06.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_14.jpeg);
 }
 /* -------------------- *\
     #ABOUT SCREEN
@@ -8139,22 +8141,44 @@ body:not(.classic) .site-wrapper .container {
 }
 
 .logo-holder{
-    height: 120px;
-    max-width: 120px;
+    height: 160px;
+    max-width: 170px;
 }
+
 .logo-img{
-   width: 90px;
-   height: 90px;
+    width: 120px;
+    height: 100px;
 }
 
+.heading {
+
+    padding-bottom: 5px;
+}
+.heading_lg{
+    margin-bottom:5px;
 }
 
+.logo {
+	height: 100px;
+	width: 100px;
+}
 
 .logo-top {
     margin-top: 10px;
     height: 64px;
     width: auto;
 }
+
+.navbar-brand {
+ 
+    padding: 0px 0px;
+    line-height: 20px;
+    height: 40px;
+}
+
+
+}
+
 
 
 /***** Features *****/
