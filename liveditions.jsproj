@@ -85,6 +85,11 @@
     <Content Include="images\skins\bg_screen_05.jpeg" />
     <Content Include="images\skins\bg_screen_06.jpeg" />
     <Content Include="images\skins\bg_screen_07.jpeg" />
+    <Content Include="images\skins\bg_screen_08.jpeg" />
+    <Content Include="images\skins\bg_screen_10.jpeg" />
+    <Content Include="images\skins\bg_screen_11.jpg" />
+    <Content Include="images\skins\bg_screen_12.jpeg" />
+    <Content Include="images\skins\bg_screen_13.jpeg" />
     <Content Include="images\skins\portfolio-screenshot_1.jpg" />
     <Content Include="images\skins\portfolio-screenshot_2.jpg" />
     <Content Include="images\skins\portfolio-screenshot_5.jpg" />

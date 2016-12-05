@@ -7549,6 +7549,10 @@ body:not(.classic) .site-wrapper .container {
  * General elements
  */
 
+.hide{
+    display:none;
+}
+
 .logo{
 
     vertical-align: middle;
@@ -7610,6 +7614,7 @@ body:not(.classic) .site-wrapper .container {
   text-align: center;
   text-transform: uppercase;
   font-size: 28.8px;
+  padding-bottom:30px;
 }
 .heading_lg {
   font-size: 36px;
@@ -7623,8 +7628,12 @@ body:not(.classic) .site-wrapper .container {
   margin: -40px auto 30px;
 }
 
-
-
+.padding-top-30{
+    padding-top:30px;
+}
+.padding-bottom-30{
+    padding-bottom:30px;
+}
 
 
 @media (min-width: 768px) {
@@ -7650,10 +7659,10 @@ body:not(.classic) .site-wrapper .container {
   background-repeat: repeat, no-repeat;
 }
 .sliding-image .site-wrapper[data-anchor="welcome"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_01.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="platform"] {
-  background-image: url(../images/bg-pattern.png), url(../images/screen-bg_2.jpg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_11.jpg);
 }
 .sliding-image .site-wrapper[data-anchor="benefits"] {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_03.jpeg);
@@ -7668,22 +7677,22 @@ body:not(.classic) .site-wrapper .container {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_05.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="contact"] {
-  background-image: url(../images/bg-pattern.png), url(../images/screen-bg_7.jpg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/screen-bg_7.jpg);
 }
 /**
  * Slideshow options for index_sliding_slideshow.html
  */
 .site-wrapper__slide_1 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_01.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
 }
 .site-wrapper__slide_2 {
-  background-image: url(../images/bg-pattern.png), url(../images/screen-bg_8.jpg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_08.jpeg);
 }
 .site-wrapper__slide_3 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_06.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/screen-bg_10.jpg);
 }
 .site-wrapper__slide_4 {
-  background-image: url(../images/bg-pattern.png), url(../images/screen-bg_10.jpg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_06.jpeg);
 }
 /* -------------------- *\
     #ABOUT SCREEN
@@ -8140,6 +8149,12 @@ body:not(.classic) .site-wrapper .container {
 
 }
 
+
+.logo-top {
+    margin-top: 10px;
+    height: 64px;
+    width: auto;
+}
 
 
 /***** Features *****/
