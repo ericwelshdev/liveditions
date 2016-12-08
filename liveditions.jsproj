@@ -75,7 +75,7 @@
     <Content Include="css\vendor\owl.theme.css" />
     <Content Include="css\vendor\slick-theme.css" />
     <Content Include="css\vendor\slick.css" />
-    <Content Include="images\avatars\team_sara_reese.JPG" />
+    <Content Include="images\avatars\team_sara_reese.jpg" />
     <Content Include="images\favico.jpg" />
     <Content Include="images\livedition-icon-soft.png" />
     <Content Include="images\livedition-icon-white.png" />
