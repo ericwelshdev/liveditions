@@ -219,8 +219,8 @@ $(document).ready(function () {
 
                 //using index
                 if(index == 1){
-                    $("#scrollUp").fadeOut("slow");
-                    $("#scrollUp").addClass("hide");
+                    //$("#scrollUp").fadeOut("slow");
+                    $("#scrollUp").addClass("hideme");
                 }
             },
 
@@ -237,14 +237,14 @@ $(document).ready(function () {
                 }
 
                 if (nextIndex == 1) {
-                    $("#scrollUp").fadeOut("slow");
-                    $("#scrollUp").addClass("hide");
+                    //$("#scrollUp").fadeOut("slow");
+                    $("#scrollUp").addClass("hideme");
                   
                 }
 
                 if (nextIndex != 1) {
-                    $("#scrollUp").removeClass("hide");
-                    $("#scrollUp").fadeIn("slow");
+                    $("#scrollUp").removeClass("hideme");
+                    //$("#scrollUp").fadeIn("slow");
                    
 
                    
@@ -300,6 +300,7 @@ $('.team-text-slider').slick({
     slidesToScroll: 1,
     arrows: false,
     draggable: false,
+    autoplay:false,
     fade: true,
     asNavFor: '.slider-nav'
 });
@@ -312,6 +313,7 @@ $('.team-image-slider').slick({
     asNavFor: '.team-text-slider',
     dots: false,
     arrows: true,
+    autoplay: false,
     centerMode: true,
     focusOnSelect: true,
     centerPadding: '10px',
