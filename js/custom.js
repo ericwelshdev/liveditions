@@ -199,6 +199,7 @@ $(document).ready(function () {
             anchors: ['welcome', 'platform', 'benefits', 'features', 'about', 'team', 'contact'],
             menu: '.fullpage__nav',
             slidesNavigation: 'true',
+            resetSliders:true,
 
             // Custom selectors
             sectionSelector: '.site-wrapper',
@@ -222,6 +223,12 @@ $(document).ready(function () {
                     //$("#scrollUp").fadeOut("slow");
                     $("#scrollUp").addClass("hideme");
                 }
+
+                if (index == 2) {
+                    $.fn.fullpage.moveTo('platform', 2);
+                };
+
+
             },
 
             onLeave: function (index, nextIndex, direction) {
@@ -246,9 +253,10 @@ $(document).ready(function () {
                     $("#scrollUp").removeClass("hideme");
                     //$("#scrollUp").fadeIn("slow");
                    
-
-                   
                 }
+
+              
+                
 
 
                 // Change Backstretch image on fullPage scroll

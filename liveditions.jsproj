@@ -75,7 +75,8 @@
     <Content Include="css\vendor\owl.theme.css" />
     <Content Include="css\vendor\slick-theme.css" />
     <Content Include="css\vendor\slick.css" />
-    <Content Include="images\avatars\team_sara_reese.jpg" />
+    <Content Include="images\avatars\Josiah_Hadley.jpg" />
+    <Content Include="images\avatars\Sara_Reese.jpg" />
     <Content Include="images\favico.jpg" />
     <Content Include="images\livedition-icon-soft.png" />
     <Content Include="images\livedition-icon-white.png" />
@@ -85,6 +86,7 @@
     <Content Include="images\liveeditions-book-black.png" />
     <Content Include="images\liveeditions-full-hoz.png" />
     <Content Include="images\skins\bg-pattern.png" />
+    <Content Include="images\skins\bg_screen_00.jpeg" />
     <Content Include="images\skins\bg_screen_01.jpeg" />
     <Content Include="images\skins\bg_screen_02.jpeg" />
     <Content Include="images\skins\bg_screen_03.jpeg" />
@@ -99,6 +101,8 @@
     <Content Include="images\skins\bg_screen_13.jpeg" />
     <Content Include="images\skins\bg_screen_14.jpeg" />
     <Content Include="images\skins\bg_screen_15.jpeg" />
+    <Content Include="images\skins\bg_screen_16.jpeg" />
+    <Content Include="images\skins\bg_screen_17.jpeg" />
     <Content Include="images\skins\portfolio-screenshot_1.jpg" />
     <Content Include="images\skins\portfolio-screenshot_2.jpg" />
     <Content Include="images\skins\portfolio-screenshot_5.jpg" />

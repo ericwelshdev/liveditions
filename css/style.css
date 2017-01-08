@@ -1346,6 +1346,10 @@ mark,
   background-color: #fcf8e3;
   padding: .2em;
 }
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
 .text-left {
   text-align: left;
 }
@@ -4303,7 +4307,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 25px 15px;
+  /*padding: 25px 15px;*/ /* drop the logo */
   font-size: 18px;
   line-height: 20px;
   height: 70px;
@@ -4320,7 +4324,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > span > img {
 	height: 64px;
 	width: auto;
-	margin-top: 1px;
+	/*margin-top: 1px;*/
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -4328,7 +4332,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > span > img {
 	height: 50px;
 	width: auto;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 }
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: -25px;
@@ -7640,13 +7644,38 @@ body:not(.classic) .site-wrapper .container {
 .heading_lg {
   font-size: 36px;
 }
+
+.heading_md {
+	font-size: 35px;
+}
 .heading__sub {
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
+  /*font-size: 15px;*/
   font-style: italic;
 }
 .heading + .heading__sub {
   margin: -40px auto 30px;
+}
+
+.heading + .heading__sub_sm {
+  margin: -40px auto -20px;
+}
+
+.heading_sm {
+	margin: 0 auto -30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 28.8px;
+	padding-bottom: 10px;
+}
+
+.heading_left_sm {
+	margin: 0 auto -10px;
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 28.8px;
+	padding-bottom: 10px;
 }
 
 .padding-top-30{
@@ -7662,6 +7691,12 @@ body:not(.classic) .site-wrapper .container {
     margin-top: 0;
     font-size: 36px;
   }
+
+  .heading_md {
+	font-size: 35px;
+}
+
+
   .heading_lg {
     font-size: 54px;
   }
@@ -7683,10 +7718,10 @@ body:not(.classic) .site-wrapper .container {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="platform"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_11.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_17.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="benefits"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_03.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_16.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="features"] {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_02.jpeg);
@@ -7707,7 +7742,7 @@ body:not(.classic) .site-wrapper .container {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
 }
 .site-wrapper__slide_2 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_08.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_01.jpeg);
 }
 .site-wrapper__slide_3 {
   background-image: url(../images/bg-pattern.png), url(../images/skins/screen-bg_10.jpg);
@@ -7715,6 +7750,24 @@ body:not(.classic) .site-wrapper .container {
 .site-wrapper__slide_4 {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_14.jpeg);
 }
+
+
+.site-wrapper__slide_2-1 {
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+}
+.site-wrapper__slide_2-2 {
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+}
+.site-wrapper__slide_2-3 {
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+}
+.site-wrapper__slide_2-4 {
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+}
+
+
+
+
 /* -------------------- *\
     #ABOUT SCREEN
 \* -------------------- */
@@ -8154,10 +8207,18 @@ body:not(.classic) .site-wrapper .container {
 	content: '\e06e';
 }
 
+
+.platform-image{
+        height:300px;
+        width:400px;
+    }
+
+
 @media (max-width: 767px) {
-    #platform-image {
+    .platform-image {
         display: none;
     }
+
 
     .logo-holder {
         height: 160px;
@@ -8216,13 +8277,17 @@ body:not(.classic) .site-wrapper .container {
 }
 
 .app-features-box .app-features-box-icon {
-    font-size: 80px;
+    font-size: 60px;
     color: #fcae11;
-    line-height: 80px;
+    line-height: 70px;
 }
 
 .app-features-box h3 {
 	margin-top: 15px;
+}
+
+.app-features-box p {
+	font-size:15px;
 }
 
 
@@ -8303,7 +8368,7 @@ body:not(.classic) .site-wrapper .container {
     font-size: 17px;
     font-weight: 600;
     line-height: 24px;
-    margin-bottom: 1px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     color:#fcae11
 }
@@ -8316,7 +8381,7 @@ body:not(.classic) .site-wrapper .container {
 	text-align: justify;
 }
 .team-text-slider {
-    background: #f0f0f0 none repeat scroll 0 0;
+    background:rgba(240,240,240, 0.3) none repeat scroll 0 0;
     border-radius: 7px;
     margin: auto;
     padding: 30px 55px 4px;
@@ -8324,24 +8389,24 @@ body:not(.classic) .site-wrapper .container {
     width: 71%;
     z-index: 9;
 }
-.team-text-slider:after {
-    -moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #f0f0f0;
-    -webkit-border-image: none;
-         -o-border-image: none;
-            border-image: none;
-    border-style: solid;
-    border-width: 22px 13px;
-    content: "";
-    height: 0;
-    left: 50%;
-    margin-left: -13px;
-    position: absolute;
-    top: -44px;
-    width: 0;
+.team-text-slider::after {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(240,240,240, 0.3) ;
+	-webkit-border-image: none;
+	-o-border-image: none;
+	border-image: none;
+	border-style: solid;
+	border-width: 22px 13px;
+	content: "";
+	height: 0;
+	left: 50%;
+	margin-left: -13px;
+	position: absolute;
+	top: -44px;
+	width: 0;
 }
 .teamText{outline: none}
 .teamText p {margin-bottom: 10px}
