@@ -8209,8 +8209,8 @@ body:not(.classic) .site-wrapper .container {
 
 
 .platform-image{
-        height:300px;
-        width:400px;
+        height:320px;
+        width:auto;
     }
 
 

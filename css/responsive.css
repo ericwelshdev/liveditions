@@ -1,7 +1,7 @@
 ﻿/* Large desktop :1920px. */
 @media (min-width: 1400px) and (max-width: 1920px) {
     .container {
-        width: 1200px;
+        width: 1300px;
     }
 }
 /* Normal desktop :992px. */

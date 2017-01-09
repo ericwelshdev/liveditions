@@ -85,6 +85,9 @@
     <Content Include="images\liveeditions-book-white.png" />
     <Content Include="images\liveeditions-book-black.png" />
     <Content Include="images\liveeditions-full-hoz.png" />
+    <Content Include="images\platform_default.jpg" />
+    <Content Include="images\platform_default_trans.png" />
+    <Content Include="images\Platform_OnRamp.png" />
     <Content Include="images\skins\bg-pattern.png" />
     <Content Include="images\skins\bg_screen_00.jpeg" />
     <Content Include="images\skins\bg_screen_01.jpeg" />
