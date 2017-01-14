@@ -7753,16 +7753,16 @@ body:not(.classic) .site-wrapper .container {
 
 
 .site-wrapper__slide_2-1 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_18.jpeg);
 }
 .site-wrapper__slide_2-2 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_18.jpeg);
 }
 .site-wrapper__slide_2-3 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_18.jpeg);
 }
 .site-wrapper__slide_2-4 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_18.jpeg);
 }
 
 
@@ -8209,7 +8209,7 @@ body:not(.classic) .site-wrapper .container {
 
 
 .platform-image{
-        height:370px;
+        height:670px;
         width:auto;
     }
 
@@ -8287,7 +8287,7 @@ body:not(.classic) .site-wrapper .container {
 }
 
 .app-features-box p {
-	font-size:15px;
+	font-size:14px;
 }
 
 
