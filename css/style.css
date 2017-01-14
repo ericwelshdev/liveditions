@@ -7725,13 +7725,13 @@ body:not(.classic) .site-wrapper .container {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_16.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="features"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_02.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_23.jpeg); /* ../images/skins/bg_screen_02.jpeg*/
 }
 .sliding-image .site-wrapper[data-anchor="team"] {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_15.jpeg);
 }
 .sliding-image .site-wrapper[data-anchor="about"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_05.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_24.jpeg); /*../images/skins/bg_screen_05.jpeg*/
 }
 .sliding-image .site-wrapper[data-anchor="contact"] {
   background-image: url(../images/bg-pattern.png), url(../images/skins/screen-bg_7.jpg);
