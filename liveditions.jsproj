@@ -87,7 +87,12 @@
     <Content Include="images\liveeditions-full-hoz.png" />
     <Content Include="images\platform_default.jpg" />
     <Content Include="images\platform_default_trans.png" />
-    <Content Include="images\Platform_OnRamp.png" />
+    <Content Include="images\platform_explore.png" />
+    <Content Include="images\platform_onramp.png" />
+    <Content Include="images\platform_onramp_student.png" />
+    <Content Include="images\platform_outreach.png" />
+    <Content Include="images\platform_outreach_counselor.png" />
+    <Content Include="images\platform_pathways.png" />
     <Content Include="images\skins\bg-pattern.png" />
     <Content Include="images\skins\bg_screen_00.jpeg" />
     <Content Include="images\skins\bg_screen_01.jpeg" />
@@ -106,6 +111,11 @@
     <Content Include="images\skins\bg_screen_15.jpeg" />
     <Content Include="images\skins\bg_screen_16.jpeg" />
     <Content Include="images\skins\bg_screen_17.jpeg" />
+    <Content Include="images\skins\bg_screen_18.jpeg" />
+    <Content Include="images\skins\bg_screen_19.jpeg" />
+    <Content Include="images\skins\bg_screen_20.jpeg" />
+    <Content Include="images\skins\bg_screen_21.jpeg" />
+    <Content Include="images\skins\bg_screen_22.jpeg" />
     <Content Include="images\skins\portfolio-screenshot_1.jpg" />
     <Content Include="images\skins\portfolio-screenshot_2.jpg" />
     <Content Include="images\skins\portfolio-screenshot_5.jpg" />

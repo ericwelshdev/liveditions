@@ -7659,7 +7659,8 @@ body:not(.classic) .site-wrapper .container {
 }
 
 .heading + .heading__sub_sm {
-  margin: -40px auto -20px;
+  /*margin: -40px auto -20px;*/
+   margin: -40px auto 0px;
 }
 
 .heading_sm {
@@ -7715,10 +7716,10 @@ body:not(.classic) .site-wrapper .container {
   background-repeat: repeat, no-repeat;
 }
 .sliding-image .site-wrapper[data-anchor="welcome"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_21.jpeg); /* ../images/skins/bg_screen_12.jpeg*/
 }
 .sliding-image .site-wrapper[data-anchor="platform"] {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_17.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_20.jpeg); /* ../images/skins/bg_screen_17.jpeg*/
 }
 .sliding-image .site-wrapper[data-anchor="benefits"] {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_16.jpeg);
@@ -7739,7 +7740,7 @@ body:not(.classic) .site-wrapper .container {
  * Slideshow options for index_sliding_slideshow.html
  */
 .site-wrapper__slide_1 {
-  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_12.jpeg);
+  background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_21.jpeg) ; /* ../images/skins/bg_screen_12.jpeg*/
 }
 .site-wrapper__slide_2 {
   background-image: url(../images/bg-pattern.png), url(../images/skins/bg_screen_01.jpeg);
@@ -8283,7 +8284,7 @@ body:not(.classic) .site-wrapper .container {
 }
 
 .app-features-box h3 {
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 .app-features-box p {
